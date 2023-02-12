@@ -23,7 +23,7 @@
         In each custom function used to scrape an a tag, one of two additional custom functions is used to clean strings of useless characters.
     </p>
     <p>
-
+        The function getTitle looks for the tag 'caption', present in the title of the table. Since it is unique in the html document, it can be stored directly in an array. This gets passed through the function cleanString, which gets rid of the newline character at the end of the string.
     </p>
 </body>
 
