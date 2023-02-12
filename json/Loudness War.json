@@ -1,0 +1,29 @@
+{
+  "name": "Loudness War",
+  "url": "https://en.wikipedia.org/wiki/Loudness_war",
+  "content": {
+    "title": [
+      "Audio normalization per streaming service"
+    ],
+    "columns": [
+      "Service",
+      "Loudness (measured in LUFS)"
+    ],
+    "services": [
+      "Amazon Music",
+      "Apple Music",
+      "SoundCloud",
+      "Spotify",
+      "Tidal",
+      "YouTube"
+    ],
+    "lufs": [
+      "-13",
+      "-16",
+      "-14",
+      "-14",
+      "-14",
+      "-14"
+    ]
+  }
+}
