@@ -26,7 +26,10 @@
         The function getTitle() looks for the tag 'caption', present in the title of the table. Since it is unique in the html document, it can be stored directly in an array. This gets passed through the function cleanString(), which gets rid of the newline character at the end of the string.
     </p>
     <p>
-        The function getColumn() scrapes both the tag 'th' and the attribute scope:"col". This returns additional strings too, which are discarded with an if statement. The useless strings contain the word "production". This, passed as a parameter for the method indexOf(), returns a value different from -1, thus being excluded from the set condition.
+        The function getColumn() scrapes both the tag 'th' and the attribute scope:"col". This returns additional strings too, which are discarded with an if statement. The useless string contains the word "production". This, passed as a parameter for the method indexOf(), returns a value different from -1, thus being excluded from the set condition.
+    </p>
+    <p>
+        Similarly to the previous function, getServices() 
     </p>
 </body>
 
