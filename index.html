@@ -32,7 +32,7 @@
         Similarly to the previous function, getServices() returns elements with the tag 'th' and the attribute scope:"row". Turned into text, the content is stored inside an array, which is spliced to only keep the list of streaming services and get rid of other words found after the table. Once cleaned of excessive newline characters, it is stored inside the final array.
     </p>
     <p>
-        
+        Finally, the function getLufs() finds all element by the tag 'td'. The array of found strings is then spliced to keep only LUFS values. Additionally, the function sliceString() gets rid of non-numerical characters, returning strings of only numerical values.
     </p>
 </body>
 
