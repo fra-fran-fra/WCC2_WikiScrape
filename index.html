@@ -29,7 +29,7 @@
         The function getColumn() scrapes both the tag 'th' and the attribute scope:"col". This returns additional strings too, which are discarded with an if statement. The useless string contains the word "production". This, passed as a parameter for the method indexOf(), returns a value different from -1, thus being excluded from the set condition.
     </p>
     <p>
-        Similarly to the previous function, getServices() returns elements with the tag 'th' and the attribute scope:"row". Turned into text, the content is stored inside an array, 
+        Similarly to the previous function, getServices() returns elements with the tag 'th' and the attribute scope:"row". Turned into text, the content is stored inside an array, which is spliced to only keep the list of streaming services and get rid of other words found after the table.
     </p>
 </body>
 
